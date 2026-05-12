@@ -148,7 +148,7 @@ function QuemSomos() {
                 fill="black"
               />
             </svg>
-            <p className="hidden md:block">Whatsapp</p>
+            <p className="hidden  md:block">Whatsapp</p>
           </button>
           <button
             onClick={() =>

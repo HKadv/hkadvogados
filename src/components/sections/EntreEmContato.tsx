@@ -13,9 +13,9 @@ function EntreEmContato() {
   });
 
   const EMAIL_CONFIG = {
-    service: "service_77ktvf8",
-    template: "template_ablm3pf",
-    key: "NmXQHU6G7U8xU_ceO",
+    service: "service_xuni6gk",
+    template: "template_us9pijy",
+    key: "zUmWHRrs8yAVkiZhE",
   };
 
   const handleSend = () => {
