@@ -1,7 +1,9 @@
 import { useGoToExternalLink } from "../../hooks/useGoToExternalLink";
+import { useScrollToSection } from "../../hooks/useScrollToSection";
 
 function QuemSomos() {
   const { goToExternalLink } = useGoToExternalLink();
+  const { scrollToSection } = useScrollToSection();
   return (
     <div
       id="quem-somos"
@@ -100,9 +102,7 @@ function QuemSomos() {
           </button>
 
           <button
-            onClick={() =>
-              goToExternalLink("mailto:contato@hkadvogados.com.br")
-            }
+            onClick={() => scrollToSection("contato")}
             className="flex rounded-full bg-[var(--gold)] md:px-6 md:py-3 w-20 h-20 items-center justify-center md:w-fit md:h-fit transition hover:bg-[var(--gold-hover)]"
           >
             <svg

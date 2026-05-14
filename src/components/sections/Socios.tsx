@@ -11,7 +11,7 @@ function Socios() {
           <div className="flex flex-col md:flex-row items-center md:items-stretch">
             <img
               className="w-full md:w-[320px] lg:w-[380px] object-cover"
-              src="kras.png"
+              src="/kras.png"
               alt="José Vitor Krás da Silva"
             />
 
@@ -38,7 +38,7 @@ function Socios() {
           <div className="flex flex-col md:flex-row items-center md:items-stretch">
             <img
               className="w-full md:w-[320px] lg:w-[380px] object-cover"
-              src="hessel.png"
+              src="/hessel.png"
               alt="Pedro Jungblut Hessel"
             />
 

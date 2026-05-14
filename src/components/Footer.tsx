@@ -507,9 +507,7 @@ function Footer() {
           </a>
 
           <a
-            onClick={() =>
-              goToExternalLink("mailto:contato@hkadvogados.com.br")
-            }
+            onClick={() => scrollToSection("contato")}
             className="transition hover:cursor-pointer hover:text-gray-300"
           >
             Email

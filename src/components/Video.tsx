@@ -2,7 +2,7 @@ function Video() {
   return (
     <div id="video" className="relative w-full h-[50vw]">
       <video
-        src="/hkadvogados/predios.mp4"
+        src="/predios.mp4"
         className="w-full h-full object-cover"
         autoPlay
         muted

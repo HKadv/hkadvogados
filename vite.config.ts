@@ -9,6 +9,5 @@ export default defineConfig({
     allowedHosts: ["localhost"],
   },
 
-  base: "/hkadvogados/",
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
 });
